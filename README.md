@@ -139,7 +139,6 @@ Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/vid
 
 -------------------------------------------------------------------------------------------
 
-Token Address: "0x3DEEF99BbEF21405875D66288e254956C3Bd02D6"
-Your ERC-721 Token Name: "Star Token"
-Your ERC-721 Token Symbol: "SNT"
-Truffle version 5.4.22 and OpenZeppelin version 4.4.0 used in the project
+|Token Address| ERC-721 Token Name | ERC-721 Token Symbol | Truffle version | OpenZeppelin version|
+|---|---|---|---|---|
+|"0x3DEEF99BbEF21405875D66288e254956C3Bd02D6" | Star Token | "SNT" | 5.4.22 | 4.4.0| 
