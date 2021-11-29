@@ -14,7 +14,18 @@ contract StarNotary is ERC721 {
     // name: Is a short name to your token
     // symbol: Is a short string like 'USD' -> 'American Dollar'
 
-    constructor() ERC721("Star Token","SNT"){}
+   constructor() ERC721(name(),symbol()){
+    }
+
+    function name() public pure override returns (string memory) {
+        return "Star Token";
+    }
+     function symbol() public pure override returns (string memory) {
+        return "SNT";
+    }
+    function totalSupply() external pure returns (uint256){
+          return 100;
+    }
 
     mapping(uint256 => Star) public tokenIdToStarInfo;
     mapping(uint256 => uint256) public starsForSale;
