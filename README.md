@@ -123,7 +123,7 @@ Error: Truffle is currently using solc 0.5.16, but one or more of your contracts
 // Configure your compilers  
 compilers: {    
   solc: {      
-    version: "0.5.16", // <- Use this        
+    version: "0.8.0", // <- Use this        
     // docker: true,
     // ...
 ```
